@@ -1,0 +1,173 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+.clear{clear:both;}
+
+.menu{
+    width: 12%;
+    position: fixed;
+    background: linear-gradient(89.68deg, #FAFAFA 0.97%, #FAFAFA 96.25%, #EDEDED 98.8%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07), 0px 10px 10px rgba(55, 155, 191, 0.44);    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+.menu ul{
+    padding: 0;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+}
+.user .user-photo{
+    width: 150px;
+    height: 120px;
+}
+.user-information{
+    display: flex;
+}
+.user-information h3{
+    width: 102px;
+}
+.user-information img{
+    margin-left: 5px;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin-left: 250px;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-top: 24px;
+}
+.content-menu{
+    display: flex;
+    margin-right: 30%;
+    align-items: center;
+}
+.content-menu li{
+    margin-right: 15%;
+    cursor: pointer;
+}
+.logo{
+    width: 232px;
+    height: 129px;
+}
+.content-menu input{
+    width: 300px;
+    height: 50px;
+    background-color: #EFEFEF;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+.input{
+    position: relative;
+}
+.input img{
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.content{
+    display: flex;
+}
+.content .vera{
+    left: 0;
+    float: left;
+    width: 30%;
+}
+.vera h1{
+    font-size: 25px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.vera p{
+    font-size: 16px;
+    margin-top: 20%;
+}
+
+.card{
+    margin-right: 15%;
+    float: right;
+    width: 50%;
+    height: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.19), 0px 0px 10px rgba(55, 155, 191, 0.44);
+    border-radius: 15px;
+}
+
+.card h1{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 4.5%;
+    padding-top: 1%;
+}
+.ler button{
+    color: white;
+    position: absolute;
+    width: 115px;
+    height: 38px;
+    left: 610px;
+    top: 270px;
+    background: #33D6C0;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.jogar button{
+    color: white;
+    position: absolute;
+    width: 115px;
+    height: 38px;
+    left: 740px;
+    top: 270px;
+    background: #379BBF;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.ouvir button{
+    color: white;
+    position: absolute;
+    width: 115px;
+    height: 38px;
+    left: 870px;
+    top: 270px;
+    background: #335CD6;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+    
