@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 
     <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
     <nav class="menu">
         <div class="user">
@@ -22,7 +24,9 @@
         </div>
 
         <ul>
-            <li><h2>Interesses</h2></li>
+            <li>
+                <h2>Interesses</h2>
+            </li>
             <li><span class="active">Geral</span></li>
             <li><span>Cidadania</span></li>
             <li><span>Comunidade</span></li>
@@ -36,41 +40,72 @@
         <nav>
             <img src="/public/assets/logo-text.png" alt="Logo da Polis" class="logo">
 
-            <ul class = "content-menu">
+            <ul class="content-menu">
                 <li><img src="/public/assets/bell.svg" alt="Notificações"></li>
                 <li><span>Sobre</span></li>
                 <li><span>Ajuda</span></li>
-                <li class="input"><input type="text" placeholder="   Pesquisar"><img src="/public/assets/search.svg" alt=""></li>
+                <li class="input"><input type="text" placeholder="   Pesquisar"><img src="/public/assets/search.svg"
+                        alt=""></li>
             </ul>
         </nav>
         <div class="content">
             <div class="first-content">
-                <div class="vera">
-                    <h1>O que você verá por aqui</h1>
-                    <p>Esta é uma plataforma sobre cidadania e o ser político, e verá conteúdo que te ajudará a entender o meio social em que vivemos.</p>
+                <div class="first-column">
+                    <div class="vera">
+                        <h1>O que você verá por aqui</h1>
+                        <p>Esta é uma plataforma sobre cidadania e o ser político, e verá conteúdo que te ajudará a
+                            entender o meio social em que vivemos.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="fixado">
+                            <h3>Fixado</h3>
+                        </div>
+                        <h1>Praticando cidadania em um debate</h1>
+                        <div class="ler">
+                            <button>Ler estudo</button>
+                        </div>
+                        <div class="jogar">
+                            <button>Jogar</button>
+                        </div>
+                        <div class="ouvir">
+                            <button>Ouvir</button>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="card">
-                    <div class="fixado">
-                        <h3>Fixado</h3>                   
+
+                <h2>Conteúdos Recentes</h2>
+
+                <div class="second-column">
+                    <div class="card">
+                        <h3>Endenda o que é ser Cidadão</h3>
+    
+                        <div class="buttons">
+                            <button>Ler estudo</button>
+                            <button>Jogar</button>
+                            <button>Ouvir</button>
+                        </div>
                     </div>
-                    <h1>Praticando cidadania em um debate</h1>
-                    <div class="ler">
-                        <button>Ler estudo</button>
+                    <div class="card second">
+                        <h3>Como é um julgamento de crime hediondo</h3>
+    
+                        <div class="buttons">
+                            <button>Ler estudo</button>
+                            <button>Jogar</button>
+                            <button>Ouvir</button>
+                        </div>
                     </div>
-                   <div class="jogar">
-                        <button>Jogar</button>
-                   </div>
-                    <div class="ouvir">
-                        <button>Ouvir</button>
-                    </div> 
+                </div>
                 </div>
 
                 <div class="clear"></div>
-            </div><!--first-content-->
+            </div>
+            <!--first-content-->
 
-        </div><!--content-->
+        </div>
+        <!--content-->
     </div>
-    
+
 </body>
+
 </html>
