@@ -85,7 +85,7 @@ ul{
     bottom: 50%;
     transform: translateY(50%);
 }
-
+/* CONTENT */
 .content{
     display: flex;
 }
@@ -94,7 +94,16 @@ ul{
     float: left;
     width: 30%;
 }
+.fixado{
+    float: right;
+    padding-right: 50px;
+    font-size: 10px;
+    color: rgb(131, 129, 129);
+}
+
+
 .vera h1{
+    margin-top: 2%;
     font-size: 25px;
     position: absolute;
     font-family: Roboto;
@@ -105,69 +114,70 @@ ul{
     color: #000000;
 }
 .vera p{
+    display: inline-block;
+    width: 100%;
     font-size: 16px;
-    margin-top: 20%;
+    margin-top: 30%;
 }
-
+/* CARD */
 .card{
+    position: absolute;
+    display: inline-block;
     margin-right: 15%;
-    float: right;
-    width: 50%;
-    height: 90%;
+    width: 30%;
+    height: 25%;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 5%;
     background: #FAFAFA;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.19), 0px 0px 10px rgba(55, 155, 191, 0.44);
     border-radius: 15px;
 }
+    .card h1{
+        position: absolute;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 6%;
+        padding-top: 3%;
+    }
+        .ler button{
+            color: white;
+            position: absolute;
+            width: 115px;
+            height: 38px;
+            left: 20px;
+            top: 80px;
+            background: #33D6C0;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+        }
+        .jogar button{
+            color: white;
+            position: absolute;
+            width: 115px;
+            height: 38px;
+            left: 140px;
+            top: 80px;
+            background: #379BBF;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+        }
+        .ouvir button{
+            color: white;
+            position: absolute;
+            width: 115px;
+            height: 38px;
+            left: 260px;
+            top: 80px;
+            background: #335CD6;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+        }
 
-.card h1{
-    position: absolute;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding-left: 4.5%;
-    padding-top: 1%;
-}
-.ler button{
-    color: white;
-    position: absolute;
-    width: 115px;
-    height: 38px;
-    left: 610px;
-    top: 270px;
-    background: #33D6C0;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-}
-
-.jogar button{
-    color: white;
-    position: absolute;
-    width: 115px;
-    height: 38px;
-    left: 740px;
-    top: 270px;
-    background: #379BBF;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-}
-
-.ouvir button{
-    color: white;
-    position: absolute;
-    width: 115px;
-    height: 38px;
-    left: 870px;
-    top: 270px;
-    background: #335CD6;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-}
-
-    
+/* SECOND-CONTENT */
