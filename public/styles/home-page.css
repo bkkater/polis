@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+}
+.user .user-photo{
+    width: 77px;
+    height: 77px;
+}
+.user-information{
+    display: flex;
+}
+.user-information img{
+    margin-left: 5px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-menu{
+    display: flex;
+    margin-right: 30%;
+    align-items: center;
+}
+.content-menu li{
+    margin-right: 15%;
+    cursor: pointer;
+}
+.logo{
+    width: 232px;
+    height: 129px;
+}
+.content-menu input{
+    width: 300px;
+    height: 50px;
+    background-color: #EFEFEF;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+.input{
+    position: relative;
+}
+.input img{
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
