@@ -7,29 +7,52 @@ body{
 ul{
     list-style: none;
 }
+
+
+.menu{
+    width: 12%;
+    position: fixed;
+    background: linear-gradient(89.68deg, #FAFAFA 0.97%, #FAFAFA 96.25%, #EDEDED 98.8%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07), 0px 10px 10px rgba(55, 155, 191, 0.44);    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+.menu ul{
+    padding: 0;
+}
 .user {
     display: flex;
     flex-direction: column;
+    margin-top: 40%;
 }
 .user .user-photo{
-    width: 77px;
-    height: 77px;
+    width: 150px;
+    height: 120px;
 }
 .user-information{
     display: flex;
+}
+.user-information h3{
+    width: 102px;
 }
 .user-information img{
     margin-left: 5px;
 }
 
+
 .container{
     height: 100vh;
     width: 100vw;
+    margin-left: 250px;
 }
 .container nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
+    margin-top: 24px;
 }
 .content-menu{
     display: flex;
@@ -62,3 +85,15 @@ ul{
     transform: translateY(50%);
 }
 
+.content{
+    display: flex;
+}
+.card{
+    width: 790px;
+    height: 231px;
+
+    margin-bottom: 20px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.19), 0px 0px 10px rgba(55, 155, 191, 0.44);
+    border-radius: 15px;
+}
