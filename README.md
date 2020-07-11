@@ -38,7 +38,7 @@ Front End
 ## 📏 Mentores
 - [Igor](https://www.linkedin.com/in/igor-arnaldo-de-alencar-5219b014b/)
 - [Ana Maria](https://www.linkedin.com/in/ana-maria-vianna-9035b2165/)
-- [Bruna]()
+- [Bruna](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8038908U8)
 
 
 
