@@ -120,20 +120,20 @@ ul{
     margin-top: 30%;
 }
 /* CARD */
-.card{
+.dif-card{
     position: absolute;
     display: inline-block;
     margin-right: 15%;
-    width: 30%;
-    height: 25%;
+    width: 28%;
+    height: 20%;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 20%;
     background: #FAFAFA;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.19), 0px 0px 10px rgba(55, 155, 191, 0.44);
     border-radius: 15px;
 }
-    .card h1{
+    .dif-card h1{
         position: absolute;
         font-family: Roboto;
         font-style: normal;
@@ -180,4 +180,75 @@ ul{
             border: none;
         }
 
+ .first-content{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+ }       
+
+ .first-column{
+     display: flex;
+ }
+
+
+
+
+ .card{
+    width: 80%;
+    height: 231px;
+    margin-bottom: 20px;
+    margin-top: 34px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.19), 0px 0px 10px rgba(55, 155, 191, 0.44);
+    border-radius: 15px;
+    background-image: url(/public/assets/family.png);
+    background-size: 340px;
+    background-repeat: no-repeat;
+    background-position-x: -30px;
+    background-position-y: -10px;
+    position: relative;
+}
+.card.second{
+    background-image: url(/public/assets/lawyer.png);
+}
+.card h3{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+    left: 300px;
+    top: 2px;
+}
+.buttons{
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 330px;
+    top: 60px;
+    margin-top: 12px;
+}
+.buttons button{
+    width: 160px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFAFA;
+    margin-right: 30px;
+}
 /* SECOND-CONTENT */
+.second-content{
+    flex: 1;
+}

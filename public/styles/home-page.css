@@ -13,7 +13,6 @@ ul{
     width: 12%;
     position: fixed;
     background: linear-gradient(89.68deg, #FAFAFA 0.97%, #FAFAFA 96.25%, #EDEDED 98.8%);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07), 0px 10px 10px rgba(55, 155, 191, 0.44);    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -21,27 +20,39 @@ ul{
 }
 .menu ul{
     padding: 0;
+    margin-top: 60px;
 }
 .user {
     display: flex;
     flex-direction: column;
     margin-top: 40%;
+    align-items: center;
 }
 .user .user-photo{
-    width: 150px;
     height: 120px;
+    align-items: center;
 }
 .user-information{
     display: flex;
 }
 .user-information h3{
-    width: 102px;
+    width: 123px;
 }
 .user-information img{
-    margin-left: 5px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
-
+ul span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-indent: 15px;  
+}
+.menu li{
+    margin-top: 20px;
+}
 .container{
     height: 100vh;
     width: 100vw;
@@ -64,7 +75,6 @@ ul{
     cursor: pointer;
 }
 .logo{
-    width: 232px;
     height: 129px;
 }
 .content-menu input{
@@ -107,7 +117,13 @@ ul{
 .card.second{
     background-image: url(/public/assets/lawyer.png);
 }
-.card h3{
+.card.third{
+    background-image: url(/public/assets/data_and_settings_monochromatic.svg);
+}
+.card.fourth{
+    background-image: url(/public/assets/book_lover.svg);
+}
+.card h2{
     position: absolute;
     font-family: Roboto;
     font-style: normal;
@@ -118,6 +134,17 @@ ul{
 
     left: 300px;
     top: 2px;
+}
+.card h3{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
 }
 .buttons{
     position: absolute;
@@ -149,8 +176,32 @@ ul{
 }
 .second-content{
     flex: 1;
+    margin-top: 34px
 }
+.espiar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 30px;
+    bottom: 0;
+    cursor: pointer;
 
+    font-family: Roboto;
+    font-style: light;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #379BBF;
+}
+.espiar h4{
+    width: 100px;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #379BBF;
+}
+.espiar img{
+    margin-left: 5px;
+}
 .buttons button:first-of-type{
     background: #33D6C0;
 }
@@ -160,4 +211,117 @@ ul{
 .buttons button:nth-child(3){
     background: #335CD6;
     margin-right: 0;
+}
+
+.access ul{
+    display: flex;
+    padding: 0;
+}
+.access li{
+    margin-left: 19px;
+    cursor: pointer;
+}
+.access li:first-of-type{
+    margin-left: 0;
+}
+
+.canais button{
+    width: 186px;
+    height: 50px;
+
+    border-radius: 15px;
+    border: none;
+    outline: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 10%;
+
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: all 0.8s;
+}
+.button-filter{
+    background: rgba(41, 114, 140, 0.69);
+    z-index: 10;
+}
+.canais button:first-of-type{
+    background-image: url(/public/assets/button1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+}
+.canais button:nth-of-type(2){
+    background-image: url(/public/assets/button2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+}
+.canais button:nth-of-type(3){
+    background-image: url(/public/assets/button3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+}
+.canais button:nth-of-type(4){
+    background-image: url(/public/assets/button4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+}
+.canais button:nth-of-type(5){
+    background-image: url(/public/assets/button5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+}
+.canais button:nth-of-type(6){
+    background-image: url(/public/assets/button6.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position-y: -35px;
+}
+.canais button:hover{
+    transform: translateY(-3px);
+}
+.gold{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.gold h4{
+    font-weight: bold;
+    background-color: #e9ca2d;
+    border-radius: 3px;
+    color: white;
+    padding: 4px;
+    margin-left: 10px;
+}
+.menu button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    color: black;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-indent: 15px;
+    padding: 0;
+}
+.menu button.active{
+    width: 160px;
+    height: 40px;
+    background: #379BBF;
+    border-radius: 50px;  
+    color: white;
 }
