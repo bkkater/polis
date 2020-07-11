@@ -21,12 +21,43 @@ ul{
 .menu ul{
     padding: 0;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .user {
     display: flex;
     flex-direction: column;
     margin-top: 40%;
     align-items: center;
+}
+.user button{
+    color: #379BBF;
+    border: 2px solid #379BBF;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    width: 145px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: white;
+    transition: background-color .5s;
+}
+.user button:hover{
+    color: white;
+    border: 2px solid #379BBF;
+    background-color: #379BBF;
+}
+.user button:nth-last-of-type(1):hover{
+    color: #379BBF;
+    border: 2px solid #379BBF;  
+    background-color: white;
+}
+.user button:nth-last-of-type(1){
+    color: white;
+    border: 2px solid #379BBF;
+    background-color: #379BBF;
 }
 .menu li{
     margin-top: 20px;
@@ -89,6 +120,12 @@ ul{
     padding-right: 50px;
     font-size: 10px;
     color: rgb(131, 129, 129);
+    display: flex;
+    align-items: center;
+    padding-top: 4%;
+}
+.fixado img{
+    margin-left: 5px;
 }
 
 
@@ -141,30 +178,36 @@ ul{
     border-radius: 50px;
     outline: none;
     border: none;
-    }
+    cursor: pointer;
+    font-weight: 600;
+}
 .jogar button{
     color: white;
     position: absolute;
     width: 115px;
     height: 38px;
-    left: 140px;
+    left: 165px;
     top: 80px;
     background: #379BBF;
     border-radius: 50px;
     outline: none;
     border: none;
+    font-weight: 600;
+    cursor: pointer;
 }
 .ouvir button{
     color: white;
     position: absolute;
     width: 115px;
     height: 38px;
-    left: 260px;
+    left: 315px;
     top: 80px;
     background: #335CD6;
     border-radius: 50px;
     outline: none;
     border: none;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .card{
@@ -369,7 +412,7 @@ ul{
     padding: 4px;
     margin-left: 10px;
 }
-.menu button{
+.menu ul button{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -383,11 +426,10 @@ ul{
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    text-indent: 15px;
     padding: 0;
 }
-.menu button.active{
-    width: 160px;
+.menu ul button.active{
+    width: 120px;
     height: 40px;
     background: #379BBF;
     border-radius: 50px;  

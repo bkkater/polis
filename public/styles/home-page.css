@@ -21,6 +21,9 @@ ul{
 .menu ul{
     padding: 0;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .user {
     display: flex;
@@ -50,8 +53,9 @@ ul span{
     text-align: center;
     text-indent: 15px;  
 }
-.menu li{
+.menu li button{
     margin-top: 20px;
+    cursor: pointer;
 }
 .container{
     height: 100vh;
@@ -315,11 +319,10 @@ ul span{
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    text-indent: 15px;
     padding: 0;
 }
 .menu button.active{
-    width: 160px;
+    width: 120px;
     height: 40px;
     background: #379BBF;
     border-radius: 50px;  
