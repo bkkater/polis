@@ -2,15 +2,15 @@ addEventListenerToFilterContent()
 
 function addEventListenerToFilterContent() {
     const input = document.getElementById('input')
-    const card = document.getElementById
+    const card = document.getElementById('card')
 
     input.addEventListener('input', (e) => {
         document.querySelectorAll('.filter-data').forEach((h2) => {
             if (input.innerHTML.toLowerCase().search(input.value.toLowerCase()) === 0) {
-                input.parentElement.style.display = "block";
+                card.style.display = "block";
             }
             else {
-                input.parentElement.style.display = "none";
+                card.style.display = "none";
             }
         })      
     })
