@@ -15,7 +15,7 @@
     <script src="/public/scripts/page-home.js"></script>
 </head>
 
-<body>
+<body onload="filterCards()">
     <nav class="menu">
         <div class="user">
             <img src="/public/assets/user.svg" alt="Foto do usuário" class="user-photo">
@@ -50,13 +50,12 @@
                 <li><img src="/public/assets/bell.svg" alt="Notificações"></li>
                 <li><span>Sobre</span></li>
                 <li><span>Ajuda</span></li>
-                <li class="input" id="input"><input type="text" placeholder="Pesquisar"><img src="/public/assets/search.svg"
-                        alt=""></li>
+                <li class="input"><input type="text" placeholder="Pesquisar" id="input-field"><img src="/public/assets/search.svg" alt=""></li>
             </ul>
         </nav>
         <div class="content">
             <div class="first-content">
-                <div class="card" id="card">
+                <div class="card">
                     <h2 class="filter-data">Endenda o que é ser Cidadão</h2>
 
                     <div class="buttons">
@@ -72,7 +71,7 @@
                         <img src="/public/assets/dif-arrow.svg" alt="Espiar debate">
                     </div>
                 </div>
-                <div class="card second" id="card">
+                <div class="card second">
                     <h2 class="filter-data">Como é um julgamento de crime hediondo</h2>
 
                     <div class="buttons">
@@ -90,7 +89,7 @@
 
                 </div>
 
-                <div class="card third" id="card">
+                <div class="card third">
                     <h2 class="filter-data">Pandemia e tecnologia: estamos sendo vigiados?</h2>
 
                     <div class="buttons">
@@ -108,7 +107,7 @@
 
                 </div>
 
-                <div class="card fourth" id="card">
+                <div class="card fourth">
                     <h2 class="filter-data">Qual o papel do Senado Federal?</h2>
 
                     <div class="buttons">

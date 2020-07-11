@@ -1,17 +1,26 @@
-addEventListenerToFilterContent()
 
-function addEventListenerToFilterContent() {
-    const input = document.getElementById('input')
-    const card = document.getElementById('card')
+function filterCards(){
+    const inputField = document.getElementById('input-field');
 
-    input.addEventListener('input', (e) => {
-        document.querySelectorAll('.filter-data').forEach((h2) => {
-            if (input.innerHTML.toLowerCase().search(input.value.toLowerCase()) === 0) {
-                card.style.display = "block";
+    inputField.addEventListener('input', (e) => {
+       const cards = document.querySelectorAll('.card');
+       const value = e.target.value.toLowerCase();
+
+       cards.forEach((card)=> {
+           const title = card.firstElementChild.innerHTML.toLowerCase();
+           let found = false
+           const words = title.split(' ');
+           words.forEach((word) =>{
+                if(word.search(value) === 0){
+                    found = true;
+                }
+           })
+           if(found){
+               card.style.display = 'block';
+           }
+           else {
+                card.style.display = 'none';
             }
-            else {
-                card.style.display = "none";
-            }
-        })      
+       })
     })
 }
