@@ -180,6 +180,10 @@ ul{
     border: none;
     cursor: pointer;
     font-weight: 600;
+    transition: all 0.8s;
+}
+.ler button:hover{
+    transform: translateY(-2px);
 }
 .jogar button{
     color: white;
@@ -194,6 +198,10 @@ ul{
     border: none;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.8s;
+}
+.jogar button:hover{
+    transform: translateY(-2px);
 }
 .ouvir button{
     color: white;
@@ -208,6 +216,10 @@ ul{
     border: none;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.8s;
+}
+.ouvir button:hover{
+    transform: translateY(-2px);
 }
 
 .card{
@@ -281,6 +293,10 @@ ul{
 
     color: #FFFAFA;
     margin-right: 30px;
+    transition: all 0.8s ease-out;
+}
+.buttons button:hover{
+    transform: translateY(-2px);
 }
 .first-content{
     flex: 4;
@@ -427,6 +443,7 @@ ul{
     line-height: 21px;
     text-align: center;
     padding: 0;
+    cursor: pointer;
 }
 .menu ul button.active{
     width: 120px;
