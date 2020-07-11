@@ -18,11 +18,13 @@
 <body onload="filterCards()">
     <nav class="menu">
         <div class="user">
-            <button>Acessar</button>
-            <button>Registrar</button>
+            <button id="acess">Acessar</button>
+            <button id="register">Registrar</button>
         </div>
         <ul>
-            <li><h2>Interesses</h2></li>
+            <li>
+                <h2>Interesses</h2>
+            </li>
             <li><button class="active">Geral</button></li>
             <li><button>Cidadania</button></li>
             <li><button>Comunidade</button></li>
@@ -40,7 +42,8 @@
                 <li><img src="/public/assets/bell.svg" alt="Notificações"></li>
                 <li><span>Sobre</span></li>
                 <li><span>Ajuda</span></li>
-                <li class="input"><input type="text" placeholder="Pesquisar" id="input-field"><img src="/public/assets/search.svg"alt="Pesquisar"></li>
+                <li class="input"><input type="text" placeholder="Pesquisar" id="input-field"><img
+                        src="/public/assets/search.svg" alt="Pesquisar"></li>
             </ul>
         </nav>
         <div class="content">
@@ -169,11 +172,58 @@
                     </ul>
                 </div>
             </div>
-
-
         </div>
     </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Acesso</h2>
+            <div class="form">
+                <label for="" class="label-input">                  
+                    <img src="/public/assets/user-field.svg" alt="Campo de CPF">
+                    <input type="text" placeholder="000.000.000-00" id="cpf" data-js="cpf">
+                </label>
+                <label for="password" class="label-input">                  
+                    <img src="/public/assets/lock.svg" alt="Campo de senha">
+                    <input type="password" placeholder="Senha">
+                </label>
+            </div>
+            <p class="alert">esqueci minha senha</p>
 
+            <a href="/views/index.html"><button>Entrar</button></a>
+            <div class="no-account">
+                <h5>Não possui uma conta?</h5>
+                <h4>Registre-se</h4>
+            </div>
+            
+        </div>
+        <img src="/public/assets/close.svg" alt="" class="fechar" id="close">
+    </div>
+
+    <div id="dif-modal" class="modal">
+        <div class="modal-content">
+            <h2>Cadastro</h2>
+            <div class="form">
+                <label for="" class="label-input">                  
+                    <img src="/public/assets/user-field.svg" alt="Campo de CPF">
+                    <input type="text" placeholder="000.000.000-00" id="cpf-cadastro" data-js="cpf" required>
+                </label>
+                <label for="email" class="label-input">                  
+                    <img src="/public/assets/mail.svg" alt="Campo de email" class="email-img">
+                    <input type="email" placeholder="seuemail@email.com" required>
+                </label>
+                <label for="password" class="label-input">                  
+                    <img src="/public/assets/lock.svg" alt="Campo de senha">
+                    <input type="password" placeholder="Senha" required>
+                </label>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+            
+        </div>
+        <img src="/public/assets/close.svg" alt="" class="fechar" id="close-acesso">
+    </div>
+
+    <script src="/public/scripts/no-user.js"></script>
 </body>
 
 </html>

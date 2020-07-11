@@ -455,3 +455,149 @@ ul{
 .second-column{
     margin-top: 230px;
 }
+
+.modal{
+    background-color: #0E0A14ef;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+}
+
+.modal.mostrar{
+    display: flex;
+    opacity: 1;
+}
+.modal-content{
+    width: 335px;
+    height: 431px;
+    background: #FEFEFE;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal input{
+    position: relative;
+    outline: none;
+    background-color: #ecf0f1;
+    border: none;
+    height: 20px;
+    border-bottom: 20px;
+    padding: 10px;
+}
+.modal img{
+    position: absolute;
+    background-size: 35px 50px;
+    z-index: 2;
+    margin-left: 5px;
+}
+.no-account{
+    display: flex;
+}
+.modal button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    width: 120px;
+    height: 35px;
+    background: white;
+    border:2px solid #379BBF;
+    border-radius: 50px;  
+    color: #379BBF;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.8s ease-out;   
+}
+.modal a:hover{
+    color: white;
+}
+
+.modal button:hover{
+    color: white;
+    background: #379BBF;
+}
+.label-input {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    background-color: #ecf0f1;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.form input {  
+    height: 25px;
+    width: 80%;
+    border: none;
+    background-color: #ecf0f1;
+    padding-left: 30px;
+}
+.modal-content h2{
+    color: #379BBF;
+}
+.fechar{
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+    cursor: pointer;
+}
+.modal-content p{
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+
+    color: #272727;
+}
+.modal-content h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #335CD6;
+
+    margin-left: 5px;
+    cursor: pointer;
+}
+.no-account{
+    display: flex;
+    align-items: center;
+}
+#dif-modal button{
+    margin-top: 50px;
+}
+.email-img{
+    width: 18px;
+}
+.modal a{
+    text-decoration: none;
+    color: #379BBF;
+}
