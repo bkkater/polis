@@ -13,6 +13,9 @@
 - Vídeos
 - Textos
 - Podcasts 
+- Livros
+- Cursos
+- Eventos
 
 ## 🛠 Tecnologias
 
