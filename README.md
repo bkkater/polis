@@ -25,6 +25,11 @@ Front End
 - CSS
 - JavaScript
 
+Back End
+
+- PHP
+- Laravel
+
 ## 💡 Curiosidades
 
 > Como prova de conceito, a plataforma foi construída utilizando apenas as tecnologias base da web.
