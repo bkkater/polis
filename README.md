@@ -1,5 +1,5 @@
 <h1 align ="center">
-    <img src="./public/assets/site-photo.png" alt="Imagem do Site" title="#ninkasisum"></img>
+    <img src="./resources/assets/site-photo.png" alt="Imagem do Site" title="#ninkasisum"></img>
 </h1>
 
 
